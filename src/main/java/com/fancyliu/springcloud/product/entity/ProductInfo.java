@@ -16,31 +16,45 @@ public class ProductInfo implements Serializable {
     @TableId("product_id")
     private String productId;
 
-    /** 名字. */
+    /**
+     * 名字.
+     */
     @TableField("product_name")
     private String productName;
 
-    /** 单价. */
+    /**
+     * 单价.
+     */
     @TableField("product_price")
     private BigDecimal productPrice;
 
-    /** 库存. */
+    /**
+     * 库存.
+     */
     @TableField("product_stock")
     private Integer productStock;
 
-    /** 描述. */
+    /**
+     * 描述.
+     */
     @TableField("product_description")
     private String productDescription;
 
-    /** 小图. */
+    /**
+     * 小图.
+     */
     @TableField("product_icon")
     private String productIcon;
 
-    /** 状态, 0正常1下架. */
+    /**
+     * 状态, 0正常1下架.
+     */
     @TableField("product_status")
     private Integer productStatus;
 
-    /** 类目编号. */
+    /**
+     * 类目编号.
+     */
     @TableField("category_type")
     private Integer categoryType;
 
