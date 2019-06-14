@@ -17,3 +17,15 @@ eureka:
 mybatis-plus:
   mapper-locations: classpath:mapping/*Mapping.xml
   type-aliases-package: com.fancyliu.springcloud.product.entity
+
+# 控制台输出 sql 语句
+logging:
+  level:
+    com:
+      fancyliu:
+        springcloud:
+          order:
+            mapper: debug
+
+#server:
+#  port: 8081
