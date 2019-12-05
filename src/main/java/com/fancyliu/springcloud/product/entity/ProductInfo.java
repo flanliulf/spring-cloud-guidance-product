@@ -9,6 +9,13 @@ import java.io.Serializable;
 import java.math.BigDecimal;
 import java.util.Date;
 
+/**
+ * 类描述:
+ * 商品实体类
+ *
+ * @author : Liu Fan
+ * @date : 2019-06-17 17:32
+ */
 @Data
 @TableName("product_info")
 public class ProductInfo implements Serializable {

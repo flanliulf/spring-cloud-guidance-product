@@ -5,6 +5,13 @@ import lombok.Data;
 
 import java.math.BigDecimal;
 
+/**
+ * 类描述:
+ * 商品 vo
+ *
+ * @author : Liu Fan
+ * @date : 2019-06-17 17:33
+ */
 @Data
 public class ProductInfoVO {
 

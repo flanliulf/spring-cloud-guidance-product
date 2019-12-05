@@ -8,6 +8,13 @@ import org.springframework.stereotype.Service;
 
 import java.util.List;
 
+/**
+ * 类描述: 
+ * 
+ * 
+ * @author : Liu Fan
+ * @date : 2019-06-17 17:32
+ */
 @Service
 public class CategoryService extends ServiceImpl<ProductCategoryMapper, ProductCategory> {
     @Autowired

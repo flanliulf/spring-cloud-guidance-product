@@ -7,6 +7,13 @@ import lombok.Data;
 
 import java.util.Date;
 
+/**
+ * 类描述:
+ * 商品分类实体类
+ *
+ * @author : Liu Fan
+ * @date : 2019-06-17 17:31
+ */
 @Data
 @TableName("product_category")
 public class ProductCategory {

@@ -26,4 +26,16 @@ public class ProductService extends ServiceImpl<ProductInfoMapper, ProductInfo> 
         return list;
     }
 
+    /**
+     * 根据给定的商品 ID  list 查询完整的商品信息
+     *
+     * @param productIdList 商品 id 列表
+     * @return
+     */
+    public List<ProductInfo> findByProductIds(List<String> productIdList) {
+        QueryWrapper<ProductInfo> queryWrapper = new QueryWrapper<>();
+        queryWrapper.in(true, "product_id", productIdList);
+        List<ProductInfo> list = this.list(queryWrapper);
+        return list;
+    }
 }
